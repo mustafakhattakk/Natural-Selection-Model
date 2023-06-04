@@ -1,2 +1,3 @@
-# Natural-Selection-Model
-A concise JavaScript implementation of a genetic algorithm for evolving balls towards a goal. It initializes a population, evaluates fitness based on distance, selects parents for reproduction, and replaces generations. Customizable parameters available. Assumes a static environment with a single goal. Fitness calculated based on distance.
+# Genetic Ball Evolution
+
+This JavaScript code implements a genetic algorithm for evolving balls towards a goal. The algorithm creates a population of balls with random movement genes. The balls move towards the goal by updating their position based on the genes. The fitness of each ball is calculated based on its distance to the goal. The algorithm selects parents for reproduction based on fitness and performs crossover and mutation to generate a new generation of balls. The process continues until a maximum generation is reached. Customizable parameters include the number of genes, velocity, number of balls, and mutation rate. The code uses the HTML5 canvas element for visualization and requires a canvas element with the id "canvas".
